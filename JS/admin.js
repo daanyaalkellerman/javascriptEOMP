@@ -23,8 +23,7 @@ prodClothes.push(prod1,prod2,prod3,prod4,prod5);
 
 function deLaMap(){
     let clothing = dedSec.map(function(object,index){
-        return 
-       `
+        return `
         <tr>
             <td>${object.id}</td>
             <td>${object.name}</td>
@@ -32,7 +31,7 @@ function deLaMap(){
             <td>${object.description}</td>
             <td><ing src="${object.url}"></img></td>
         </tr>
-        `
-        
+        `  
     })
 }
+table.innerHTML = clothing.join('')
