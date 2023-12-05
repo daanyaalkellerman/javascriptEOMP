@@ -35,3 +35,5 @@ function deLaMap(){
     })
 }
 table.innerHTML = clothing.join('')
+
+
